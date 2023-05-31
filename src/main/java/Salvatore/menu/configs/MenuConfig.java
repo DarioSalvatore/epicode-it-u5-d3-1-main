@@ -1,15 +1,18 @@
-package riccardogulin.u5d3.configs;
+package Salvatore.menu.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
-import riccardogulin.u5d3.entities.Consummation;
-import riccardogulin.u5d3.entities.Menu;
-import riccardogulin.u5d3.entities.drinks.Coke;
-import riccardogulin.u5d3.entities.drinks.Lemonade;
-import riccardogulin.u5d3.entities.pizzas.Pizza;
-import riccardogulin.u5d3.entities.toppings.HamTopping;
-import riccardogulin.u5d3.entities.toppings.OnionTopping;
+import Salvatore.menu.entities.Consummation;
+import Salvatore.menu.entities.Menu;
+import Salvatore.menu.entities.Ordine;
+import Salvatore.menu.entities.Tavolo;
+import Salvatore.menu.entities.drinks.Coke;
+import Salvatore.menu.entities.drinks.Lemonade;
+import Salvatore.menu.entities.pizzas.Pizza;
+import Salvatore.menu.entities.toppings.HamTopping;
+import Salvatore.menu.entities.toppings.OnionTopping;
 
 @Configuration
 public class MenuConfig {
@@ -55,6 +58,18 @@ public class MenuConfig {
 	@Bean
 	Consummation getLemonade() {
 		return new Lemonade(0.5);
+	}
+
+	@Bean
+	@Scope("prototype")
+	public Ordine ordine() {
+		return new Ordine();
+	}
+
+	@Bean
+	@Scope("prototype")
+	public Tavolo tavolo(Integer numero, Integer postiAsedere, Boolean tavoloLibero) {
+		return new Tavolo(numero, postiAsedere, tavoloLibero);
 	}
 
 }

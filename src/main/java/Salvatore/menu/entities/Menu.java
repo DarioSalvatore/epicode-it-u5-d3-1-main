@@ -1,4 +1,4 @@
-package riccardogulin.u5d3.entities;
+package Salvatore.menu.entities;
 
 import java.util.ArrayList;
 import java.util.List;

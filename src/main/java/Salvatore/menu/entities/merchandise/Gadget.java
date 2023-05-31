@@ -1,9 +1,9 @@
-package riccardogulin.u5d3.entities.merchandise;
+package Salvatore.menu.entities.merchandise;
 
+import Salvatore.menu.entities.Product;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import riccardogulin.u5d3.entities.Product;
 
 @Getter
 @Setter

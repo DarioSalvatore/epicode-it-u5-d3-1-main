@@ -1,6 +1,6 @@
-package riccardogulin.u5d3.entities.toppings;
+package Salvatore.menu.entities.toppings;
 
-import riccardogulin.u5d3.entities.Consummation;
+import Salvatore.menu.entities.Consummation;
 
 public class OnionTopping extends ToppingDecorator {
 

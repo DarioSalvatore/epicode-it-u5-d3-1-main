@@ -1,10 +1,10 @@
-package riccardogulin.u5d3;
+package Salvatore.menu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class U5d3ApplicationTests {
+class W4G3ApplicationTests {
 
 	@Test
 	void contextLoads() {

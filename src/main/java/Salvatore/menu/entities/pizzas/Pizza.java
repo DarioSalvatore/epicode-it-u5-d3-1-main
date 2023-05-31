@@ -1,8 +1,8 @@
-package riccardogulin.u5d3.entities.pizzas;
+package Salvatore.menu.entities.pizzas;
 
+import Salvatore.menu.entities.Consummation;
 import lombok.Getter;
 import lombok.Setter;
-import riccardogulin.u5d3.entities.Consummation;
 
 @Getter
 @Setter

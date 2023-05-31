@@ -1,4 +1,4 @@
-package riccardogulin.u5d3.entities.drinks;
+package Salvatore.menu.entities.drinks;
 
 public class Lemonade extends Drink {
 	public Lemonade(double size) {

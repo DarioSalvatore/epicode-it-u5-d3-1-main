@@ -1,9 +1,9 @@
-package riccardogulin.u5d3.entities.drinks;
+package Salvatore.menu.entities.drinks;
 
+import Salvatore.menu.entities.Consummation;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import riccardogulin.u5d3.entities.Consummation;
 
 @AllArgsConstructor
 @Getter
